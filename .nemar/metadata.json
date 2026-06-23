@@ -1,7 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Trance channeling EEG study",
+  "description": "This EEG dataset comprises recordings from 13 screened participants across two sessions, featuring alternating 5-minute blocks of trance channeling and resting state conditions. The study design includes three periods per session for each condition, providing a structured investigation of neural activity during trance channeling states compared to baseline resting conditions.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -9,40 +10,6 @@
     "Arnaud Delorme": {},
     "Helane Wahbeh": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds004040.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on004040",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004040",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".ced",
-    ".json",
-    ".m",
-    ".md",
-    ".set",
-    ".tsv",
-    ".xlsx"
-  ],
-  "description": "This dataset comprises EEG recordings from 13 screened participants across two sessions, examining neural activity during trance channeling and resting state conditions. Each session consisted of alternating 5-minute blocks of trance channeling and rest, with three periods per condition. The study investigates the neurophysiological correlates of trance channeling through continuous EEG monitoring.",
   "keywords": [
     {
       "term": "EEG"
@@ -55,13 +22,47 @@
     },
     {
       "term": "altered states of consciousness"
-    },
-    {
-      "term": "consciousness"
-    },
-    {
-      "term": "neuroscience"
     }
   ],
-  "source_hash": "02f339524928ad61b6b9ace4b323b9a845df205fff589601bd8c089efee9e97a"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on004040",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004040",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004040.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1038/s41598-019-41974-9",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
+    }
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "12.4 GB (31 files)"
+  ],
+  "formats": [
+    ".ced",
+    ".json",
+    ".m",
+    ".md",
+    ".set",
+    ".tsv",
+    ".xlsx",
+    ".yml"
+  ],
+  "methods_description": "Participants underwent thorough screening and completed two sessions on different days. Each session consisted of alternating 5-minute blocks of trance channeling and resting state conditions, with three periods per session for each condition.",
+  "source_hash": "903d9180c28c4db6746f274ce65d7725714a930280d21f2d9e161f8ceda483d8"
 }
